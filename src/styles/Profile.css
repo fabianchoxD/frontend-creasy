@@ -1,0 +1,33 @@
+.box-profile {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 120px;
+    width: 500px;
+    height: 450px;
+    border-radius: 10px 10px;
+    box-shadow: rgb(206, 206, 206) 1px 1px 7px;
+}
+
+.box-profile .form h2 {
+    margin-left: -10px;
+    padding-bottom: 40px;
+}
+
+.box-profile .form #info {
+    margin-left: -11px;
+}
+
+.box-profile .form #save {
+    width: 130px;
+    height: 36px;
+    background: #0C8CBC;
+    color: white;
+    margin-left: 188px;
+    margin-top: 27px;
+    border-radius: 25px 25px;
+
+    font-size: 13px;
+    font-family: 'Gadugi';
+    font-weight: bold;
+}

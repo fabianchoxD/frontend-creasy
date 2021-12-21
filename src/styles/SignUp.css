@@ -1,0 +1,130 @@
+.box {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+    width: 811px;
+    height: 480px;
+    border-radius: 10px 10px;
+    box-shadow: rgb(206, 206, 206) 1px 1px 7px;
+}
+
+.form {
+    position: absolute;
+    border-radius: 10px 0 0 10px;
+    left: 0;
+    width: 520px;
+    height: 480px;
+    /* box-shadow: rgb(190, 190, 190) 1px 1px 7px; */
+}
+
+.form h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: 'Gadugi';
+    font-weight: bold;
+    color: #0C8CBC;
+}
+
+.form #info {
+    display: inline-flex;
+}
+
+.form .names {
+    width: 190px;
+    margin-left: 64.5px;
+    padding-bottom: 5px;
+}
+
+.form .lastnames {
+    width: 190px;
+    margin-left: 10px;
+    padding-bottom: 5px;
+}
+
+.form #ident, #mail, #pass, #select {
+    width: 390px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form #select {
+    display: inline-flex;
+    position: relative;
+    left: 65px;
+}
+
+.form #select #arrow {
+    right: 10px;
+    top: 9px;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+.form #select #fs {
+    background: #F8F8F9;
+    border: none;
+    height: 37px;
+}
+
+.form #select #fs:not(:placeholder-shown) {
+    color: #525252;
+}
+
+.form #btn-up {
+    width: 130px;
+    height: 36px;
+    background: #0C8CBC;
+    color: white;
+    margin-left: 195px;
+    margin-top: 20px;
+    border-radius: 25px 25px;
+
+    font-size: 13px;
+    font-family: 'Gadugi';
+    font-weight: bold;
+}
+
+/* -------------------------------------------------- */
+/* -------------------------------------------------- */
+
+.info {
+    background: linear-gradient( #158DB9, #1EB2E8);
+    position: absolute;
+    /* box-shadow: rgb(190, 190, 190) 1px 1px 7px; */
+    left: 521px;
+    border-radius: 0 10px 10px 0;
+    width: 290px;
+    height: 480px;
+}
+
+.info h2 {
+    text-align: center;
+    padding-top: 125px;
+    padding-bottom: 20px;
+    font-family: 'Gadugi';
+    color: #ffffff;
+}
+
+.info p {
+    text-align: center;
+    font-family: 'Gadugi';
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.info #btn-in {
+    position: absolute;
+    width: 130px;
+    height: 36px;
+    border: white solid 1px;
+    border-radius: 25px 25px;
+    left: 78px;
+    bottom: 165px;
+    color: white;
+
+    font-family: 'Gadugi';
+    font-weight: bold;
+}

@@ -1,0 +1,100 @@
+.box-in {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 60px;
+    width: 711px; 
+    height: 400px;
+    border-radius: 10px 10px;
+    box-shadow: rgb(206, 206, 206) 1px 1px 7px;
+}
+
+.box-in .info-in {
+    background: linear-gradient( #158DB9, #1EB2E8);
+    position: absolute;
+    left: 0;
+    border-radius: 10px 0 0 10px;
+    width: 290px;
+    height: 400px;
+}
+
+.box-in .info-in h2 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Gadugi';
+    color: #ffffff;
+}
+
+.box-in .info-in p {
+    text-align: center;
+    font-family: 'Gadugi';
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.box-in .info-in #btn-up {
+    position: absolute;
+    width: 130px;
+    height: 36px;
+    border: white solid 1px;
+    border-radius: 25px 25px;
+    left: 78px;
+    bottom: 110px;
+    color: white;
+
+    font-family: 'Gadugi';
+    font-weight: bold;
+}
+
+
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+
+
+.box-in .form-in {
+    position: absolute;
+    border-radius: 0 10px 10px 0;
+    right: 0;
+    width: 420px;
+    height: 400px;
+}
+
+.box-in .form-in h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-family: 'Gadugi';
+    font-weight: bold;
+    color: #0C8CBC;
+}
+
+.box-in .form-in #mail-in, #pass-in {
+    width: 310px;
+    padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#inlineFormInputGroup {
+    border: none;
+    background: #F8F8F9;
+}
+
+#icon {
+    border: none;
+}
+
+.box-in .form-in #btn-in {
+    width: 130px;
+    height: 36px;
+    background: #0C8CBC;
+    color: white;
+    margin-left: 145px;
+    margin-top: 50px;
+    border-radius: 25px 25px;
+
+    font-size: 13px;
+    font-family: 'Gadugi';
+    font-weight: bold;
+}
