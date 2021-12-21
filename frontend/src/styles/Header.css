@@ -1,0 +1,55 @@
+.appBar {
+    height: 100px;
+}
+
+.title {
+    text-align: left;
+    /* padding-top: 30px; */
+    padding-left: 35px;
+}
+
+.title:hover {
+    cursor: pointer;        
+}
+
+.title #p1, #p2 {
+    color: #575555;
+    font-size: 22px;
+    font-family: 'Calibri';
+}
+
+.title #p2 {
+    font-weight: bold;
+}
+
+.options {
+    display: inline-flex;
+    height: 100px;
+}
+
+.options .MuiButton-root {
+    color: black;
+    text-transform: capitalize;
+    border-radius: 0 0;
+    font-size: 16px;
+    width: 100px;
+    height: 100px;
+}
+
+.options .MuiButton-root:hover, .MuiButton-root:focus {
+    background: #0C8CBC;
+    color: white;
+}
+
+#register {
+    width: 120px;
+    height: 40px;
+    background: #FFAA4A;
+    color: white;
+    /* margin-top: 30px; */
+    margin-right: 35px;
+    border-radius: 25px 25px;
+    text-transform:inherit;
+    font-size: 20px;
+    font-family: 'Calibri';
+}

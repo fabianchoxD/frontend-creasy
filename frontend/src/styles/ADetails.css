@@ -1,0 +1,74 @@
+.field {
+    width: 970px;
+    height: 80vh;
+    border: 1.5px solid #B1B1B1;
+    box-shadow: #B1B1B1 1px 1px 4px; 
+    border-radius: 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+}
+
+#adv label {
+    margin-left: 55px;
+    color: #3B3B3B;
+    font-family:  Calibri ;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#adv input {
+    margin-left: 55px;
+    width: 40%;
+    height: 36px;
+    border: solid 1px #B1B1B1;
+    border-radius: 3px 3px;
+}
+
+#adv textarea {
+    width: 88.6%;
+    border: solid 1px #B1B1B1;
+    margin-left: 55px;
+    color: #3B3B3B;
+    font-family: 'Calibri';
+    font-size: 18px;
+    border-radius: 3px 3px;
+}
+
+#adv #box-items {
+    display: inline-flex;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#adv #box-items #advance {
+    width: 88.5%;
+}
+
+#adv #box-items #progress {
+    width: 88.5%;
+    margin-left: 0;
+}
+
+.observation {
+    width: 970px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.observation label {
+    margin-top: 12px; 
+    color: #D10CD8; 
+    font-style: italic;
+    font-size: 18px;
+    font-family: 'Calibri';
+}
+
+.observation #lOb {
+    width: 100%;
+    height: 200px;
+    border-color: #B1B1B1;
+    border-radius: 3px 3px;
+    box-shadow: #B1B1B1 1px 1px 4px;
+}
